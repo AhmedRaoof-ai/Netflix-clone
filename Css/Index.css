@@ -42,8 +42,6 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    
-    
 }
 .page_1 * {
     position: relative;
@@ -134,12 +132,12 @@ padding-top: 100px;
 border-bottom: 8px solid #222222;
 background-size: 65vh;
 }
-.page_3 .pa{
+.page_3 .p2{
     font-size: 3vh;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-.page_3 .pa .p_1{
+.page_3 .p2 .p_1{
     font-size: 6vh;
 }
 
@@ -177,12 +175,12 @@ padding-top: 100px;
 background-size: 65vh;
 border-bottom: 8px solid #222222;
 }
-.page_5 .pa{
+.page_5 .p2{
     font-size: 3vh;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-.page_5 .pa .p_1{
+.page_5 .p2 .p_1{
     font-size: 6vh;
 }
 .middle5 {
@@ -336,6 +334,23 @@ border-bottom: 8px solid #222222;
 }
 
 @media (max-width: 600px){
+    .email_bar {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        padding: 0 20px;
+    }
+    .email_bar input{
+        width: 100%;
+    }
+.email_bar .search-btn{
+    width: 35%;
+    height: 100vh;
+}
+#email{
+    height: 100vh
+}
     .page_2 {
         flex-direction: column;
         justify-content: center;
@@ -346,7 +361,7 @@ border-bottom: 8px solid #222222;
         padding-top: 50px;
         padding-bottom: 30vh;
         background-position: center bottom;
-         background-size: 40vh;
+        background-size: 40vh;
     }
 
     .page_2 .p_1 {
@@ -359,15 +374,11 @@ border-bottom: 8px solid #222222;
         margin-bottom: 20px;
     }
 
-    .email_bar {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 0 20px;
-    }
+    
+
 
     .page_3 {
-        flex-direction: column;
+       flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -376,7 +387,7 @@ border-bottom: 8px solid #222222;
         padding-top: 50px;
         padding-bottom: 30vh;
         background-position: center bottom;
-         background-size: 40vh;
+        background-size: 40vh;
     }
 
     .page_3 .p_1 {
@@ -398,7 +409,7 @@ border-bottom: 8px solid #222222;
         padding-top: 50px;
         padding-bottom: 30vh;
         background-position: center bottom;
-         background-size: 40vh;
+        background-size: 40vh;
     }
 
     .page_4 .p_1 {
@@ -421,7 +432,7 @@ border-bottom: 8px solid #222222;
         padding-top: 50px;
         padding-bottom: 30vh;
         background-position: center bottom;
-         background-size: 40vh;
+        background-size: 40vh;
     }
 
     .page_5 .p_1 {
