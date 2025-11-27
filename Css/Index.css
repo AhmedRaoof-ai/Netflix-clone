@@ -26,7 +26,7 @@
 
 .page_1{
     position: relative; 
-    background-image: url(/html/Images/Netflix_bcg.jpg);
+    background-image: url(../Images/Netflix_bcg.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -87,7 +87,7 @@
     background-color: #b8020c;
 }
 .page_2{
-    background-image: url(/html/Images/tv.png);
+    background-image: url(../Images/tv.png);
     height: 70vh;
     background-repeat: no-repeat;
     background-position: right center;  
@@ -110,7 +110,7 @@ font-size: 3vh;
 
 }
 .page_3{
-background-image: url(/html/Images/mobile-0819.jpg);
+background-image: url(../Images/mobile-0819.jpg);
 height: 70vh;
 background-repeat: no-repeat;
 background-position: left center;  
@@ -132,7 +132,7 @@ background-size: 65vh;
 }
 
 .page_4{
-background-image: url(/html/Images/device-pile-in.png);
+background-image: url(../Images/device-pile-in.png);
 height: 70vh;
 background-repeat: no-repeat;
 background-position: right center;  
@@ -153,7 +153,7 @@ color: white;
 font-size: 3vh;
 }
 .page_5{
-background-image: url(/html/Images/p6.png);
+background-image: url(../Images/p6.png);
 height: 70vh;
 background-repeat: no-repeat;
 background-position: left center;  
